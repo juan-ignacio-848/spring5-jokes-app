@@ -10,10 +10,10 @@ import org.springframework.context.annotation.Configuration;
 // external jar and you will use this a lot when you are programming in the Spring Framework when you are dealing with
 // external jars from an open source project or possibly from another team that you don't control the source code. So
 // you bring in another dependency but you want to utilize that dependency within your application.
-@Configuration
+//@Configuration
 public class ChuckConfiguration {
 
-    @Bean
+    //@Bean
     public ChuckNorrisQuotes chuckNorrisQuotes() {
         return new ChuckNorrisQuotes();
     }
